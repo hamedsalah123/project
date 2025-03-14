@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Cairo:wght@200..1000&display=swap');
+body{
+    font-family: "Cairo", serif;
+}
+
+#daty{
+    padding-left: 10%;
+    padding-top: 30%;
+    text-align: center;
+}
+#daty{
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/welcome-hero/welcome-banner.jpg");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+    font-size: 1rem;
+}
+.navbar-brand{
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+.nav-link{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+.nav-link:hover{
+    border-bottom: 2px solid greenyellow;
+}
+.gh{
+    background: goldenrod;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 22px;
+}
+.container h1{
+    text-align: center;
+    padding-top: 12px;
+}
+
+.ght{
+    border: 2px solid black;
+    
+    padding-top: 10px; 
+    padding: 5px;
+}
+.rt{
+    border: 2px solid darkcyan;
+    background: darkgrey;
+    transition: 2s;
+}
+.rt:hover{
+   background: rgb(160, 209, 209);
+}
+.imgbox{
+    text-align: center;
+    padding-top: 20px;
+}
+.frt{
+    background:darkcyan
+   
+}
+#form{
+    background:darkgrey;
+    padding-top: 5%;
+    margin-top: 20px;
+
+}
+/* منتجات */
+.product-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #555;
+}
+
+.product-price {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: red;
+    margin-right: 5px;
+}
+
+.new-price {
+    color: green;
+}
+
+.rating {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.add-to-cart {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition:0.3s;
+}
+
+.add-to-cart:hover {
+    background: #218838;
+}
+
+/* ثىي */
+.hamed9 img{
+   width: 200px;
+    margin-top: 10%;
+   margin-left: 20%;
+   border: 2px solid black;
+padding: 20px;
+   
+}
+body{
+    background: rgb(145, 173, 173);
+
+}
+ footer{
+    color: white;
+
+ }
+ footer li{
+    list-style: none;
+ }
+ footer a{
+    text-decoration: none;
+    color: white;
+ }
